@@ -1,0 +1,21 @@
+.row {
+  display: flex;
+}
+
+.left-column {
+  flex: 20%;
+  background: #f4f5f7;
+}
+
+.main {
+  flex: 60%;
+}
+
+.right-column {
+  background-color: gray;
+  flex: 40%;
+}
+
+.middle {
+  height: 1024px;
+}

@@ -1,0 +1,63 @@
+/* List Container */
+
+.left-content {
+  height: 100vh;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.list img {
+  margin-right: 12px;
+}
+.list-title img {
+  margin-right: 3px;
+}
+
+.list-container {
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 37px;
+  margin-bottom: 40px;
+}
+
+.list-items {
+  margin-top: 12px;
+}
+
+.list-container span {
+  color: #999999;
+  font-size: 15px;
+}
+/* --List Container-- */
+
+/* Menu Container */
+.menu-container {
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 37px;
+}
+
+.menu-container a {
+  font-family: 'Poppins', sans-serif;
+  color: #999999;
+}
+.menu {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.menu img {
+  margin-right: 18px;
+}
+/* --Menu Container-- */
+
+.new-project {
+  position: absolute;
+  left: 20px;
+  bottom: 75px;
+}
+/* --New Project-- */

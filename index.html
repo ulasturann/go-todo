@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Todo List</title>
+</head>
+
+<body>
+    <div class="row">
+        <div class="left-column">
+            <div class="left-content">
+                <img src="/assets/images/logo.svg">
+                <div class="menu-container">
+                        <div class="menu">
+                            <img src="/assets/icons/archive-icon.svg">
+                            <a href="#">Archives</a>
+                        </div>  
+                        <div class="menu">
+                            <img src="/assets/icons/settings-icon.svg">
+                            <a href="#">Settings</a>
+                        </div>  
+                        <div class="menu">
+                            <img src="/assets/icons/all-activity-icon.svg">
+                            <a href="#">All Activity</a>
+                        </div>
+                </div>
+                <div class="list-container">
+                    <span>All Lists</span>
+                    <div class="list-items">
+                        <div class="list">
+                            <img src="/assets/icons/list-arrow.svg">
+                            <div class="list-title">
+                                <img src="/assets/icons/list-icon-check.svg">
+                                <a href="#">Daily Task</a>
+                            </div>
+                        </div>
+                        <div class="list">
+                            <img src="/assets/icons/list-arrow.svg">
+                            <div class="list-title">
+                                <img src="/assets/icons/list-icon-check.svg">
+                                <a href="#">Daily Task</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="new-project">
+                    <button class="new-project-btn">
+                        <div class="row">
+                            <div class="new-btn-content">
+                                <img src="/assets/icons/plus.svg">
+                                New Project
+                            </div>
+                        </div>        
+                    </button>
+                </div>       
+            </div>
+        </div>
+        <div class="middle">
+            <div class="middle-container">
+                <div class="middle-header">
+                    <img src="/assets/icons/list-icon-check.svg">
+                    <h1>Daily Task</h1>
+                    <img id="edit-icon" src="/assets/icons/edit-icon.svg">
+                </div>
+                <div class="row">
+                    <div class="header-description">
+                        <h2>Click</h2>
+                        <img src="/assets/images/h2-new.svg">
+                        <h2>To create new list and tasks that you can schedule your day.</h2>
+                    </div>
+                </div>
+                <div class="to-do-container">
+                    <div class="row">
+                        <div class="table-container">
+                            <div class="row">
+                            <div class="table">
+                                <div class="table-content row">
+                                    <span>Next Up</span>
+                                    <div class="count" id="count">3</div>                                                                  
+                                </div>
+                            </div>
+                            <div class="table">
+                                <div class="table-content row">
+                                    <span>In Progress</span>
+                                    <div class="count" id="count">2</div>                                                                  
+                                </div>
+                            </div>
+                            <div class="table">
+                                <div class="table-content row">
+                                    <span>Complete</span>
+                                    <div class="count" id="count">2</div>                                                              
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="card-container">
+                        <div class="row">
+                            <div class="first-table-column">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <div class="card-header row">
+                                            <div class="card-title row">
+                                                <img id="card-icon" src="/assets/images/card-header.svg">
+                                                <span id="card-title">Gym</span>
+                                            </div>                                           
+                                            <img src="/assets/images/card-settings.svg">
+                                        </div>
+                                        <div class="card-body">
+                                            <span id="card-body-text">Go to Gym after work today. There is Leg Day!! Check your program.</span>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="card-footer-content row">
+                                                <img src="/assets/icons/clock-icon.svg">
+                                                <span id="date">Mar 29</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-content">
+                                        <div class="card-header row">
+                                            <div class="card-title row">
+                                                <img id="card-icon" src="/assets/images/card-header.svg">
+                                                <span id="card-title">Gym</span>
+                                            </div>                                           
+                                            <img src="/assets/images/card-settings.svg">
+                                        </div>
+                                        <div class="card-body">
+                                            <span id="card-body-text">Go to Gym after work today. There is Leg Day!! Check your program.</span>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="card-footer-content row">
+                                                <img src="/assets/icons/clock-icon.svg">
+                                                <span id="date">Mar 29</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="second-table-column">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <div class="card-header row">
+                                            <div class="card-title row">
+                                                <img id="card-icon" src="/assets/images/card-header.svg">
+                                                <span id="card-title">Gym</span>
+                                            </div>                                           
+                                            <img src="/assets/images/card-settings.svg">
+                                        </div>
+                                        <div class="card-body">
+                                            <span id="card-body-text">Go to Gym after work today. There is Leg Day!! Check your program.</span>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="card-footer-content row">
+                                                <img src="/assets/icons/clock-icon.svg">
+                                                <span id="date">Mar 29</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-content">
+                                        <div class="card-header row">
+                                            <div class="card-title row">
+                                                <img id="card-icon" src="/assets/images/card-header.svg">
+                                                <span id="card-title">Gym</span>
+                                            </div>                                           
+                                            <img src="/assets/images/card-settings.svg">
+                                        </div>
+                                        <div class="card-body">
+                                            <span id="card-body-text">Go to Gym after work today. There is Leg Day!! Check your program.</span>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="card-footer-content row">
+                                                <img src="/assets/icons/clock-icon.svg">
+                                                <span id="date">Mar 29</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="third-table-column">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <div class="card-header row">
+                                            <div class="card-title row">
+                                                <img id="card-icon" src="/assets/images/card-header.svg">
+                                                <span id="card-title">Gym</span>
+                                            </div>                                           
+                                            <img src="/assets/images/card-settings.svg">
+                                        </div>
+                                        <div class="card-body">
+                                            <span id="card-body-text">Go to Gym after work today. There is Leg Day!! Check your program.</span>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="card-footer-content row">
+                                                <img src="/assets/icons/clock-icon.svg">
+                                                <span id="date">Mar 29</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-content">
+                                        <div class="card-header row">
+                                            <div class="card-title row">
+                                                <img id="card-icon" src="/assets/images/card-header.svg">
+                                                <span id="card-title">Gym</span>
+                                            </div>                                           
+                                            <img src="/assets/images/card-settings.svg">
+                                        </div>
+                                        <div class="card-body">
+                                            <span id="card-body-text">Go to Gym after work today. There is Leg Day!! Check your program.</span>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="card-footer-content row">
+                                                <img src="/assets/icons/clock-icon.svg">
+                                                <span id="date">Mar 29</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="right-column">right</div>
+    </div>
+</body>
+<!-- Scripts -->
+<script src="/assets/js/script.js"></script>
+
+</html>
